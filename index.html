@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JavaScript homework 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./style/main.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="version-one">
+            <label> Мисия "Хочу колбасу"<br />
+                <select name="one">
+                    <option value="">Старт мисии Хочу колбасу</option>
+                    <option value="not">Не хочу колбасу</option>
+                    <option value="want">Хочу колбасу</option>
+                </select>
+            </label>
+            <label> Первый шаг<br />
+                <select name="two">
+                    <option value="">Продолжить</option>
+                    <option value="go">Пойти на кухню</option>
+                    <option value="not">Не хочу колбасу</option>
+                </select>
+            </label>
+            <label> Второй шаг<br />
+                <select name="three">
+                    <option value="">Продолжить</option>
+                    <option value="go">Подойти к холодильнику</option>
+                    <option value="not">Передумал</option>
+                </select>
+            </label>
+            <label> Третий шаг<br />
+                <select name="four">
+                    <option value="">Продолжить</option>
+                    <option value="go">Открыть холодильник</option>
+                    <option value="not">Передумал</option>
+                </select>
+            </label>
+            <label> Четвертый шаг<br />
+                <select name="five">
+                    <option value="">Продолжить</option>
+                    <option value="not">Не хочу колбасу</option>
+                    <option value="take">Взять колбасу</option>
+                </select>
+            </label>
+
+        </div>
+        <div class="version-two">
+            <label> Мисия-2 "Хочу колбасу"<br />
+                <select name="one-v2">
+                    <option value="">Старт мисии Хочу колбасу</option>
+                    <option value="not">Не хочу колбасу</option>
+                    <option value="want">Хочу колбасу</option>
+                </select>
+            </label>
+            <label> Первый шаг<br />
+                <select name="two-v2">
+                    <option value="">Продолжить</option>
+
+                    <option value="go">Пойти на кухню</option>
+                    <option value="not">Не хочу колбасу</option>
+                </select>
+            </label>
+            <label> Второй шаг<br />
+                <select name="three-v2">
+                    <option value="">Продолжить</option>
+
+                    <option value="go">Подойти к холодильнику</option>
+                    <option value="not">Передумал</option>
+                </select>
+            </label>
+            <label> Третий шаг<br />
+                <select name="four-v2">
+                    <option value="">Продолжить</option>
+
+                    <option value="go">Открыть холодильник</option>
+                    <option value="not">Передумал</option>
+                </select>
+            </label>
+            <label> Четвертый шаг<br />
+                <select name="five-v2">
+                    <option value="">Продолжить</option>
+                    <option value="not">Не хочу колбасу</option>
+                    <option value="take">Взять колбасу</option>
+                </select>
+            </label>
+            <button onclick="takeSousegV2()"> Показать результат</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="version-three">
+            <h4>Мисия "Хочу колбасу"</h4>
+            <button onclick="run()">Продолжить</button>
+            <button onclick="notWant()">Отменить</button>
+            <div id="content"></div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

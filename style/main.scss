@@ -1,0 +1,53 @@
+.container {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.version-one {
+    border: 1px solid #323455;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.version-one>label {
+
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.version-two {
+    border: 1px solid #323455;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.version-two>label {
+
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.version-three {
+    width: 100%;
+    text-align: center;
+}
+
+
+// .step-version-one>label {
+//     border: 1px solid #323455;
+//     display: block;
+//     text-align: center;
+//     width: 100%;
+// }
