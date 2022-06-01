@@ -156,8 +156,10 @@ function createEl(position) {
     let arr = new Array();
     arr = ['Пойти на кухню', 'Подойти к холодильнику', 'Открыть холодильник', 'Взять колбасу'];
     let el = '';
+    let inptCh = "<input type='button' name=" + position + "value='Ok'/>"
+
     if (position < arr.length) {
-        el = "<span>" + arr[position] + "</span><br/>";
+        el = "<div class='content'><div>" + arr[position] + "</div><button onclick='notWant()'>Передумал</button></div>";
     } else if (position === arr.length) {
         el = "<span> Поздравляю мисия выполнена.Вы взяли колбасу. </span><br/>";
     }
